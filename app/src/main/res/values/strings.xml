@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Hospital_Management</string>
+    <string name="doctor">Doctor</string>
+    <string name="service">Service</string>
+    <string name="appointment">Appointment</string>
+    <string name="title">Hospital Management</string>
+    <string name="confirmation">Confirmation</string>
+    <string-array name="doctorname">
+        <item>Dr Asiful Haque</item>
+        <item>Dr Saddam Hossain</item>
+        <item>Dr Shamima Akter</item>
+        <item>Dr Tanjilur Rahman</item>
+        <item>Dr Sadia Tasnim</item>
+        <item>Dr Joshim Uddin</item>
+        <item>Dr Ripon Hossain</item>
+        <item>Dr Mamunur Rashid</item>
+    </string-array>
+    <string-array name="specialist">
+        <item>(Cardiology)</item>
+        <item>(Dermatology)</item>
+        <item>(Gynaecology)</item>
+        <item>(Medicine)</item>
+        <item>(Neurology)</item>
+        <item>(Oncology)</item>
+        <item>(Paediatrics)</item>
+        <item>(Orthopaedics)</item>
+    </string-array>
+    <string-array name="servaicename">
+        <item>Physical Checkup</item>
+        <item>Blood Test</item>
+        <item>Urine Test</item>
+        <item>X Ray</item>
+    </string-array>
+    <string-array name="serviceprice">
+        <item>Price 1000 Tk</item>
+        <item>Price 500 Tk</item>
+        <item>Price 500 Tk</item>
+        <item>Price 500 Tk</item>
+    </string-array>
+</resources>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".ConfirmationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Patient Name"/>
+        <EditText
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cpatientid"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Email :"/>
+        <EditText
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cemailid"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Choose Doctor :"/>
+        <EditText
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cdoctorid"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Blood Group :"/>
+        <EditText
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cbgid"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Gender :"/>
+        <EditText
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cgenderid"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Contact Number :"/>
+        <EditText
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:id="@+id/ccontactid"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Date of birth :"/>
+        <EditText
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cdobid"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Blood Type :"/>
+        <EditText
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cbtid"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="National ID Number :"/>
+        <EditText
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cnid"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Choose Date :"/>
+        <EditText
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cappointdateid"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:hint="ID Search"
+            android:textSize="20dp"
+            android:id="@+id/cappointsearchtid"/>
+
+
+        <Button
+android:textStyle="bold"
+            android:layout_marginLeft="20sp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Search"
+            android:id="@+id/csearchid"/>
+
+    </LinearLayout>
+
+</LinearLayout>
