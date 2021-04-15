@@ -8,7 +8,6 @@
 
 ![2](https://user-images.githubusercontent.com/62055525/110494803-21bd7b00-811e-11eb-842a-dee48a9be3dc.PNG)
 
-
 ### This page will come after pressing doctor button where user can see the doctors and their specialities
 
 ![1](https://user-images.githubusercontent.com/62055525/110494793-1e29f400-811e-11eb-929d-19c19c90b066.PNG)
@@ -24,4 +23,3 @@
 ### This page will come after pressing service button where user can find out the confirmation of the appointment by using his/her id and search button.
 
 ![5](https://user-images.githubusercontent.com/62055525/110494815-23873e80-811e-11eb-91f7-58da0d0e208c.PNG)
-
