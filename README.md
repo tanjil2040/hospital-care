@@ -4,7 +4,7 @@
 
 ### Some Screenshots of my project
 
-### This page will come first where user can see Doctor, Service, Appointment and Confirmation buttons.
+### This page will come first where user can see Doctor, Service, Appointment and Confirmation buttons
 
 ![2](https://user-images.githubusercontent.com/62055525/110494803-21bd7b00-811e-11eb-842a-dee48a9be3dc.PNG)
 
