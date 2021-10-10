@@ -49,57 +49,21 @@ String[]doctornames;
         dateappointtext = findViewById(R.id.appointdateid);
         dateappointbutton = findViewById(R.id.appointdatebuttonid);
         dateappointbutton.setOnClickListener(this);
-//         appointidserach = findViewById(R.id.appointsearchtid);
        doctornames = getResources().getStringArray(R.array.doctorname);
        spinner = findViewById(R.id.spinnerid);
-//       spinner.setOnClickListener(this);
        ArrayAdapter<String>adapter=new ArrayAdapter<String>(this,R.layout.activity_spinnerview,R.id.spinnertextid,doctornames);
        spinner.setAdapter(adapter);
         pname=findViewById(R.id.patientid);
 save = findViewById(R.id.saveid);
          email=findViewById(R.id.emailid);
-//        chooseDoctor=findViewById(R.id.doctorid);
          bg=findViewById(R.id.bgid);
-//         gender=findViewById(R.id.genderid);
         radioGroup = findViewById(R.id.genderid);
          contact=findViewById(R.id.contactid);
          dob=findViewById(R.id.dobid);
          bt=findViewById(R.id.btid);
         nid=findViewById(R.id.nid);
          appointdate=findViewById(R.id.appointdateid);
-//         search=findViewById(R.id.searchid);
-//        search.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                AppointService appointService = AppointClient.getRetrofitInstance().create(AppointService.class);
-//                appointService.getAppointmentById(Integer.parseInt(appointidserach.getText().toString())).enqueue(new Callback<Appointment>() {
-//                    @Override
-//                    public void onResponse(Call<Appointment> call, Response<Appointment> response) {
-//                        if(response.body()!=null){
-//                            Appointment  a = response.body();
-//                            pname.setText(a.getPatientName());
-//                            System.out.println("Patient----"+ a.getPatientName());
-//                            email.setText(response.body().getEmail());
-//                            chooseDoctor.setText(response.body().getDoctorName());
-//                            bg.setText(response.body().getBloodGroup());
-//                            gender.setText(response.body().getGender());
-//                            contact.setText(response.body().getContactNumber());
-//                            dob.setText(response.body().getDateOfBirth());
-//                            bt.setText(response.body().getBloodType());
-//                            nid.setText(response.body().getNid());
-//                            appointdate.setText(response.body().getAppointDate());
-//                        }
-//
-//                    }
-//
-//                    @Override
-//                    public void onFailure(Call<Appointment> call, Throwable t) {
-//                        t.printStackTrace();
-//                    }
-//                });
-//
-//            }
-//        });
+
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
