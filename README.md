@@ -16,10 +16,10 @@
 
 ![3](https://user-images.githubusercontent.com/62055525/110494808-22561180-811e-11eb-8579-8c75867033c8.PNG)
 
-### This page will come after pressing service button where user can make appointment and see his/her id after completing appointment.
+### This page will come after pressing appointment button where user can make appointment and see his/her id after completing appointment.
 
 ![4](https://user-images.githubusercontent.com/62055525/110494813-22eea800-811e-11eb-9228-2576dc762111.PNG)
 
-### This page will come after pressing service button where user can find out the confirmation of the appointment by using his/her id and search button.
+### This page will come after pressing confirmation button where user can find out the confirmation of the appointment by using his/her id and search button.
 
 ![5](https://user-images.githubusercontent.com/62055525/110494815-23873e80-811e-11eb-91f7-58da0d0e208c.PNG)
