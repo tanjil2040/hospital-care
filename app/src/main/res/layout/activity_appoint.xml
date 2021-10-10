@@ -76,33 +76,30 @@
             android:layout_height="wrap_content"
             android:id="@+id/bgid">
             <RadioButton
+                          android:id="@+id/bga"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="A"/>
             <RadioButton
+                          android:id="@+id/bgb"
                 android:layout_marginLeft="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="B"/>
 
             <RadioButton
+                          android:id="@+id/bgab"
                 android:layout_marginLeft="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="AB"/>
             <RadioButton
+                          android:id="@+id/bgo"
                 android:layout_marginLeft="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="O"/>
         </RadioGroup>
-<!--        <EditText-->
-<!--            android:textSize="20dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:layout_marginLeft="8dp"-->
-<!--            android:layout_width="200dp"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:id="@+id/bgid"/>-->
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -120,22 +117,17 @@
             android:layout_height="wrap_content"
             android:id="@+id/btid">
             <RadioButton
+                         android:id="@+id/btp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Positive"/>
             <RadioButton
+                         android:id="@+id/btn"
                 android:layout_marginLeft="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Negetive"/>
         </RadioGroup>
-<!--        <EditText-->
-<!--            android:textSize="20dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:layout_marginLeft="8dp"-->
-<!--            android:layout_width="200dp"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:id="@+id/btid"/>-->
     </LinearLayout>
 
     <LinearLayout
@@ -154,28 +146,17 @@
             android:layout_height="wrap_content"
             android:id="@+id/genderid">
             <RadioButton
+                          android:id="@+id/gmale"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Male"/>
             <RadioButton
+                    android:id="@+id/gfemale"      
                 android:layout_marginLeft="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Female"/>
         </RadioGroup>
-<!--        <TextView-->
-<!--            android:textSize="20dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:layout_width="150dp"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:text="Gender :"/>-->
-<!--        <EditText-->
-<!--            android:textSize="20dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:layout_marginLeft="8dp"-->
-<!--            android:layout_width="200dp"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:id="@+id/genderid"/>-->
     </LinearLayout>
 
     <LinearLayout
@@ -256,24 +237,9 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="5dp">
-<!--        <EditText-->
-<!--            android:layout_width="100dp"-->
-<!--            android:layout_height="match_parent"-->
-<!--           android:hint="ID Search"-->
-<!--            android:textSize="20dp"-->
-<!--            android:id="@+id/appointsearchtid"/>-->
-
-
-<!--        <Button-->
-
-<!--            android:layout_marginLeft="20sp"-->
-<!--            android:layout_width="100dp"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:text="Search"-->
-<!--            android:id="@+id/searchid"/>-->
+        
         <Button
-
-            android:textStyle="bold"
+android:textStyle="bold"
             android:layout_marginLeft="20sp"
             android:layout_width="100dp"
             android:layout_height="match_parent"
